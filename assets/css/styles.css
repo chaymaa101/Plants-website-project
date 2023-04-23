@@ -215,7 +215,7 @@ the website, in dark theme
     height: 100%;
     top: 0;
     
-    right:0 ;
+    right:-100% ;
     box-shadow: -2px 0 4px hsl(var(--hue), 24%, 15% , .1);
     padding: 4rem 0 0 3rem ;
     border-radius: 1rem 0 0 1rem ;
@@ -251,6 +251,10 @@ the website, in dark theme
 } 
 
 /* Show menu */
+ .show-menu{
+  right:0;
+ }
+
 
 
 /* Change background header */
