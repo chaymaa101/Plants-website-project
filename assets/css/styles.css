@@ -349,6 +349,27 @@ the website, in dark theme
   column-gap: .5rem;
 }
 /*=============== ABOUT ===============*/
+.about__container{
+  row-gap:2rem ;
+}
+.about__img{
+  width: 280px;
+  justify-self: center;
+}
+
+.about__title{
+  margin-bottom: var(--mb-1);
+}
+
+.about__description{
+  margin-bottom: var(--mb-2);
+}
+.about__details{
+  display: grid;
+  row-gap:1rem ;
+  margin-bottom: var(--mb-2-5);
+
+}
 
 
 /*=============== STEPS ===============*/
